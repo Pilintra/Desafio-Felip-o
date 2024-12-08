@@ -10,14 +10,14 @@ const nomeHeroi = [
 ]
 
 const pontosCategorias = [
-    <=1000:"Ferro"
-    <=2000:"Bronze"
-    <=5000:"Prata"
-    <=7000:"Ouro"
-    <=8000:"Platina"
-    <=9000:"Ascendente"
-    <=10000:"Imortal"
-    <=10000:"Radiante"
+    1000 + "Ferro"
+    <=2000 + "Bronze"
+    <=5000 + "Prata"
+    <=7000 + "Ouro"
+    <=8000 + "Platina"
+    <=9000 + "Ascendente"
+    <=10000 + "Imortal"
+    <=10000 + "Radiante"
 ]
 
 function categoria(pontos){
@@ -35,7 +35,7 @@ nomeHeroi.forEach(heroi => {
 //Função para verificar a categoria do herói
 function nivel(pontos){
     if(pontos <=1000){
-        return"Ferro":
+        return"Ferro";
     }else if(pontos <=2000){
         return"Bronze";
     }else if(pontos <=5000){
