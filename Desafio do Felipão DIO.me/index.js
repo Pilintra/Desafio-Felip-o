@@ -17,7 +17,7 @@ const pontosCategorias = [
     <=8000 + "Platina"
     <=9000 + "Ascendente"
     <=10000 + "Imortal"
-    <=10000 + "Radiante"
+    >=10001 + "Radiante"
 ]
 
 function categoria(pontos){
